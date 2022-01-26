@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name SH-ESP32)(type Legacy)(uri ${KIPRJMOD}/SH-ESP32.lib)(options "")(descr ""))
+  (lib (name "SH-ESP32")(type "Legacy")(uri "${KIPRJMOD}/SH-ESP32.lib")(options "")(descr ""))
+  (lib (name "SH-wg")(type "KiCad")(uri "${KIPRJMOD}/SH-wg.kicad_sym")(options "")(descr ""))
 )
