@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "SH-wg")
+    (title "Sailor Hat WiFi Gateway")
     (date "2022-01-25")
     (rev "0.1.0")
   )
@@ -139,7 +139,7 @@
         )
       )
     )
-    (symbol "SH-ESP32-mini:+3V3_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "SH-wg:+3V3_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -528,6 +528,9 @@
     (property "Datasheet" "~" (id 3) (at 132.08 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C65114" (id 4) (at 132.08 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1b968fe8-a219-4fec-a50f-86b849673a18))
     (pin "2" (uuid 0cdc5580-ae1a-4dcb-9a6a-8f27580f149b))
     (pin "3" (uuid 6b318416-84ad-4cf3-84f2-9f5201b3802b))
@@ -536,7 +539,7 @@
     (pin "6" (uuid 67d13aba-4b07-4508-bed8-3fa55e31928d))
   )
 
-  (symbol (lib_id "SH-ESP32-mini:+3V3_1") (at 147.32 55.88 0) (unit 1)
+  (symbol (lib_id "SH-wg:+3V3_1") (at 147.32 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d4a9e08d-0c79-4f4e-9320-09e54492bf8e)
     (property "Reference" "#PWR0703" (id 0) (at 147.32 59.69 0)
@@ -552,7 +555,7 @@
     (pin "1" (uuid 98ebcfd3-4e86-4b09-9ace-c20e013e29dd))
   )
 
-  (symbol (lib_id "SH-ESP32-mini:+3V3_1") (at 58.42 43.18 0) (unit 1)
+  (symbol (lib_id "SH-wg:+3V3_1") (at 58.42 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e3dcd453-7513-4aad-9511-37708fc77d52)
     (property "Reference" "#PWR0702" (id 0) (at 58.42 46.99 0)

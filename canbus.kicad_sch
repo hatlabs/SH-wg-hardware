@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "SH-wg")
+    (title "Sailor Hat WiFi Gateway")
     (date "2022-01-25")
     (rev "0.1.0")
     (company "Hat Labs Ltd")
@@ -301,7 +301,7 @@
         )
       )
     )
-    (symbol "SH-ESP32-mini:+3V3_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "SH-wg:+3V3_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -706,7 +706,7 @@
     (pin "1" (uuid 955ea1ca-80cd-4fc1-a406-51e5d30e1002))
   )
 
-  (symbol (lib_id "SH-ESP32-mini:+3V3_1") (at 134.62 80.01 0) (unit 1)
+  (symbol (lib_id "SH-wg:+3V3_1") (at 134.62 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5b25d857-2b16-46d7-a32b-11e6d7df78a4)
     (property "Reference" "#PWR0205" (id 0) (at 134.62 83.82 0)

@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name SH-ESP32)(type KiCad)(uri ${KIPRJMOD}/SH-ESP32.pretty)(options "")(descr ""))
+  (lib (name "SH-wg")(type "KiCad")(uri "${KIPRJMOD}/SH-wg.pretty")(options "")(descr ""))
 )
