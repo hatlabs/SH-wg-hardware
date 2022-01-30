@@ -15,6 +15,7 @@ _autosave-*
 *cache.lib
 fp-info-cache
 SH-ESP32-cache.lib
+SH-wg-backups
 
 # Netlist files (exported from Eeschema)
 *.net
