@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "SH-wg")(type "KiCad")(uri "${KIPRJMOD}/SH-wg.pretty")(options "")(descr ""))
+  (lib (name "kikit")(type "KiCad")(uri "${KIPRJMOD}/kikit.pretty")(options "")(descr ""))
 )

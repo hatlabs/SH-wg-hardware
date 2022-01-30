@@ -1495,7 +1495,7 @@
       (reference "D602") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005f6faf6e/00000000-0000-0000-0000-00005ca62d98"
-      (reference "D603") (unit 1) (value "SS24FL") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D603") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/00000000-0000-0000-0000-00005fc50b89/0a67c58f-82bf-4731-87df-0acd477c4299"
       (reference "D801") (unit 1) (value "YELLOW LED") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -1534,7 +1534,7 @@
       (reference "G405") (unit 1) (value "OSHW logo") (footprint "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen")
     )
     (path "/00000000-0000-0000-0000-00005fc0c355/00000000-0000-0000-0000-00005fc0d03d"
-      (reference "H401") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H404") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/0f7e0d55-f6ef-431a-bf8e-64a6008a922c"
       (reference "J101") (unit 1) (value "Aux PCB Conn Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical")
@@ -1564,7 +1564,7 @@
       (reference "J701") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f6faf6e/00000000-0000-0000-0000-000060159ec7"
-      (reference "L601") (unit 1) (value "NLCV32T-100K-PFR") (footprint "Inductor_SMD:L_1210_3225Metric")
+      (reference "L601") (unit 1) (value "CBC3225T100KR") (footprint "Inductor_SMD:L_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-00005f6faf6e/00000000-0000-0000-0000-00005ca62d7a"
       (reference "L602") (unit 1) (value "SMMS0650-470M") (footprint "SH-wg:SMMS0650-1R0M")
@@ -1606,7 +1606,7 @@
       (reference "R806") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f733ba4/00000000-0000-0000-0000-00006118cef3"
-      (reference "U201") (unit 1) (value "SN65HVD231") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U201") (unit 1) (value "SN65HVD232DR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005fc3847d/00000000-0000-0000-0000-00005fc47e0f"
       (reference "U301") (unit 1) (value "ESP32-WROOM-32E") (footprint "SH-wg:ESP32-WROOM-32-HandSolder")
