@@ -1537,7 +1537,7 @@
       (reference "G405") (unit 1) (value "OSHW logo") (footprint "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen")
     )
     (path "/00000000-0000-0000-0000-00005fc0c355/00000000-0000-0000-0000-00005fc0d03d"
-      (reference "H404") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H404") (unit 1) (value "MountingHole") (footprint "SH-wg:MountingHole_3.2mm_M3_no_copper")
     )
     (path "/0f7e0d55-f6ef-431a-bf8e-64a6008a922c"
       (reference "J101") (unit 1) (value "Aux PCB Conn Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical")

@@ -476,7 +476,7 @@
     (property "Value" "MountingHole" (id 1) (at 50.8 48.133 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 48.26 46.99 0)
+    (property "Footprint" "SH-wg:MountingHole_3.2mm_M3_no_copper" (id 2) (at 48.26 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 48.26 46.99 0)
