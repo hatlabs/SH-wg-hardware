@@ -6,8 +6,10 @@
 
   (title_block
     (title "Sailor Hat WiFi Gateway")
-    (date "2022-01-25")
-    (rev "0.1.0")
+    (date "2022-02-23")
+    (rev "0.2.0")
+    (comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
+    (comment 3 "SH-ESP32 is licensed under CC BY-SA 4.0.")
   )
 
   (lib_symbols
