@@ -555,7 +555,8 @@
     (uuid f42c6d6a-e7fe-4f4c-81fb-b49a566abd03)
   )
 
-  (text "Rs provides slope control\nto limit EMI." (at 144.78 135.89 0)
+  (text "Rs provides slope control\nto limit EMI on HVD230\nand 231."
+    (at 152.4 129.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 163d070a-2e72-403e-a79c-d02e6e9bc1a9)
   )
