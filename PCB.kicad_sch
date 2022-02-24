@@ -6,8 +6,8 @@
 
   (title_block
     (title "Sailor Hat WiFi Gateway")
-    (date "2022-01-25")
-    (rev "0.1.0")
+    (date "2022-02-23")
+    (rev "0.2.0")
     (company "Hat Labs Ltd")
     (comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
     (comment 2 "To view a copy of this license, visit ")
@@ -476,7 +476,7 @@
     (property "Value" "MountingHole" (id 1) (at 50.8 48.133 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (id 2) (at 48.26 46.99 0)
+    (property "Footprint" "SH-wg:MountingHole_3.2mm_M3_no_copper" (id 2) (at 48.26 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 48.26 46.99 0)
