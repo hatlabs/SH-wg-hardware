@@ -1198,7 +1198,7 @@
     (property "Value" "B5819W" (id 1) (at 161.29 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 154.94 53.34 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123F" (id 2) (at 154.94 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 154.94 53.34 0)

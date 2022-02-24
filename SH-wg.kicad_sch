@@ -1516,7 +1516,7 @@
       (reference "D601") (unit 1) (value "SMBJ33CA") (footprint "Diode_SMD:D_SMB")
     )
     (path "/00000000-0000-0000-0000-00005f6faf6e/00000000-0000-0000-0000-00005fb64bc2"
-      (reference "D602") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D602") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/00000000-0000-0000-0000-00005f6faf6e/00000000-0000-0000-0000-00005ca62d98"
       (reference "D603") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123F")
@@ -1618,19 +1618,19 @@
       (reference "R801") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005fc50b89/00000000-0000-0000-0000-00005fc5f84c"
-      (reference "R802") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R802") (unit 1) (value "1.0k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005fc50b89/8c786c12-f407-4294-8100-2d9d18f5f633"
-      (reference "R803") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R803") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005fc50b89/050ea99f-3409-4111-b640-72535f2ed0f5"
-      (reference "R804") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R804") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005fc50b89/5e24df36-8fda-4b8e-a175-7c261f2551ff"
       (reference "R805") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005fc50b89/32e4dcaf-d753-4d9d-9238-b322607fe894"
-      (reference "R806") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R806") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f733ba4/00000000-0000-0000-0000-00006118cef3"
       (reference "U201") (unit 1) (value "SN65HVD232DR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
