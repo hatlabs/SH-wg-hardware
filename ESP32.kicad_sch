@@ -1025,7 +1025,7 @@
     (property "Reference" "C301" (id 0) (at 57.531 141.0716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uf" (id 1) (at 57.531 143.383 0)
+    (property "Value" "1uF" (id 1) (at 57.531 143.383 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 55.5752 146.05 0)
