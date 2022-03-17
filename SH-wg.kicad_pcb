@@ -1801,7 +1801,7 @@
 
   (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp 1ad5f7b4-3020-4ee3-925e-03544879c6df)
-    (at 80.8 83.75 90)
+    (at 77.6 82.65 90)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2 90) (layer "F.SilkS") hide
@@ -2635,7 +2635,7 @@
 
   (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp 668cb578-bf94-4ef2-b824-c577d2683648)
-    (at 77.285 39.12 -90)
+    (at 77.6 39.12 -90)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2 90) (layer "F.SilkS") hide
@@ -2658,7 +2658,7 @@
 
   (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp 7a37280d-1151-46b5-ba12-2057fb9f9543)
-    (at 42.25 57.6)
+    (at 42.2 60.9)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
