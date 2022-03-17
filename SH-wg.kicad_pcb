@@ -7,12 +7,12 @@
   (paper "A4")
   (title_block
     (title "Sailor Hat Wireless Gateway")
-    (date "2022-02-23")
-    (rev "0.2.0")
+    (date "2022-03-17")
+    (rev "1.0.0")
     (company "Hat Labs Ltd")
     (comment 1 "https://creativecommons.org/licenses/by/4.0")
     (comment 2 "To view a copy of this license, visit ")
-    (comment 3 "SH-ESP32 is licensed under CC BY 4.0.")
+    (comment 3 "SH-wg is licensed under CC BY 4.0.")
   )
 
   (layers
@@ -1260,7 +1260,7 @@
     (at 75.2725 120.605)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
-    (property "LCSC" "C30530")
+    (property "LCSC" "C129257")
     (property "Sheetfile" "canbus.kicad_sch")
     (property "Sheetname" "CAN bus")
     (path "/00000000-0000-0000-0000-00005f733ba4/00000000-0000-0000-0000-00006118cef3")
@@ -1269,7 +1269,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6c67e4f6-9d04-4539-b356-b76e915ce848)
     )
-    (fp_text value "SN65HVD232DR" (at 0 3.4) (layer "F.Fab") hide
+    (fp_text value "SN65HVD231DR" (at 0 3.4) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b447dbb1-d38e-4a15-93cb-12c25382ea53)
     )
@@ -1801,7 +1801,7 @@
 
   (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp 1ad5f7b4-3020-4ee3-925e-03544879c6df)
-    (at 80.8 83.75 90)
+    (at 77.6 82.75 90)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2 90) (layer "F.SilkS") hide
@@ -2174,7 +2174,7 @@
     (at 81.5225 120.105 90)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
-    (property "LCSC" "C466521")
+    (property "LCSC" "C353294")
     (property "Sheetfile" "canbus.kicad_sch")
     (property "Sheetname" "CAN bus")
     (path "/00000000-0000-0000-0000-00005f733ba4/5fa33435-b27d-4fab-abdf-c3365cf00775")
@@ -2272,6 +2272,29 @@
     )
   )
 
+  (footprint "kikit:Tab" (layer "F.Cu")
+    (tedit 60708B1A) (tstamp 3dcc4112-5a42-4597-a02b-9d9270b5be31)
+    (at 96.65 44.9 180)
+    (descr "A symbol representing annotation for tab placement")
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e19464bc-4482-4d4e-96dd-0c052cf02653)
+    )
+    (fp_text value "Tab" (at -2.75 -1) (layer "Dwgs.User") hide
+      (effects (font (size 1.2 1.2) (thickness 0.2)))
+      (tstamp 6ac080d4-38c2-4a36-81dd-7d31448735e2)
+    )
+    (fp_text user "KIKIT: width: 4mm" (at -5.5 0 90) (layer "Dwgs.User") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp eb94aa75-8f71-40e9-a597-a67f971026af)
+    )
+    (fp_line (start 0.25 0) (end -0.75 -1) (layer "Dwgs.User") (width 0.3) (tstamp 4a9c6e23-1352-4b72-a2a1-1e971b7407ad))
+    (fp_line (start 0.25 0) (end -0.75 1) (layer "Dwgs.User") (width 0.3) (tstamp 7ef7f515-275d-45d0-926a-a9379d451e5b))
+    (fp_line (start 0.25 0) (end -2.75 0) (layer "Dwgs.User") (width 0.3) (tstamp ca643d2a-6fb5-44fd-95ac-ad02c7f16c28))
+    (fp_line (start 0.25 1) (end 0.25 -1) (layer "Dwgs.User") (width 0.3) (tstamp dbf79a8b-f1f3-44f1-b9eb-81e61bd43c86))
+  )
+
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 469bf149-3cd5-4a33-b3b0-5f3d70993267)
     (at 51.5 134)
@@ -2317,7 +2340,7 @@
 
   (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp 4abc2a2d-8537-429f-ad20-e3c3755c8e3b)
-    (at 42.75 127.5)
+    (at 42.6 127.5)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
@@ -2476,7 +2499,7 @@
 
   (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp 5ab8f85e-e053-490c-939d-e329ca5ac8da)
-    (at 97.25 127.62 180)
+    (at 97.35 127.62 180)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
@@ -2498,31 +2521,8 @@
   )
 
   (footprint "kikit:Tab" (layer "F.Cu")
-    (tedit 60708B1A) (tstamp 5b37e16d-cbd5-490f-a009-1a66baa795b9)
-    (at 96.535 44.82 180)
-    (descr "A symbol representing annotation for tab placement")
-    (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 1c4f7cb8-15dc-44ce-8cae-3ef0530004b0)
-    )
-    (fp_text value "Tab" (at -2.75 -1) (layer "Dwgs.User") hide
-      (effects (font (size 1.2 1.2) (thickness 0.2)))
-      (tstamp 741995c3-dd7b-4db6-a50c-dc019fd57587)
-    )
-    (fp_text user "KIKIT: width: 4mm" (at -5.5 0 90) (layer "Dwgs.User") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 9849bb59-37cf-498c-863c-700476c8ec80)
-    )
-    (fp_line (start 0.25 0) (end -0.75 -1) (layer "Dwgs.User") (width 0.3) (tstamp c4d3af67-f6ba-4a99-9f87-d22edaa8e7ed))
-    (fp_line (start 0.25 1) (end 0.25 -1) (layer "Dwgs.User") (width 0.3) (tstamp cf91b7bf-b532-415b-83ea-efce08984abf))
-    (fp_line (start 0.25 0) (end -0.75 1) (layer "Dwgs.User") (width 0.3) (tstamp d27511f5-08a3-4c45-b063-34497982126e))
-    (fp_line (start 0.25 0) (end -2.75 0) (layer "Dwgs.User") (width 0.3) (tstamp eb7de170-354d-43f4-9f3e-804030617e53))
-  )
-
-  (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp 5c6fec64-a72d-4eee-b867-de09c9c11fb0)
-    (at 70 138.85 90)
+    (at 70 138.95 90)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2 90) (layer "F.SilkS") hide
@@ -2635,7 +2635,7 @@
 
   (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp 668cb578-bf94-4ef2-b824-c577d2683648)
-    (at 77.285 39.12 -90)
+    (at 77.6 39.05 -90)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2 90) (layer "F.SilkS") hide
@@ -2658,7 +2658,7 @@
 
   (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp 7a37280d-1151-46b5-ba12-2057fb9f9543)
-    (at 42.25 57.6)
+    (at 42.05 60.9)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
@@ -3589,7 +3589,7 @@
     (at 84 120.1 -90)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
-    (property "LCSC" "C466521")
+    (property "LCSC" "C353294")
     (property "Sheetfile" "canbus.kicad_sch")
     (property "Sheetname" "CAN bus")
     (path "/00000000-0000-0000-0000-00005f733ba4/012074b5-c2dd-4f00-ae96-4de43c32d0d4")
@@ -3680,7 +3680,7 @@
 
   (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp b87c1ef3-2b19-4953-a9ed-7f8413e067b0)
-    (at 70 116.35 -90)
+    (at 70 116.25 -90)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2 90) (layer "F.SilkS") hide
@@ -4099,25 +4099,25 @@
 
   (footprint "kikit:Tab" (layer "F.Cu")
     (tedit 60708B1A) (tstamp fdcb33a0-03fd-4651-808a-d5b8173f5268)
-    (at 96.535 70.52 180)
+    (at 96.6 70.52 180)
     (descr "A symbol representing annotation for tab placement")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp e19464bc-4482-4d4e-96dd-0c052cf02653)
+      (tstamp e05549a7-e6ce-483a-b9ed-e132d9b2e87c)
     )
     (fp_text value "Tab" (at -2.75 -1) (layer "Dwgs.User") hide
       (effects (font (size 1.2 1.2) (thickness 0.2)))
-      (tstamp 6ac080d4-38c2-4a36-81dd-7d31448735e2)
+      (tstamp 39edcb2e-db73-42e9-812d-6c004817ac3f)
     )
     (fp_text user "KIKIT: width: 4mm" (at -5.5 0 90) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp eb94aa75-8f71-40e9-a597-a67f971026af)
+      (tstamp 07eb77d5-2261-447b-8337-dd4e9e28359c)
     )
-    (fp_line (start 0.25 0) (end -0.75 -1) (layer "Dwgs.User") (width 0.3) (tstamp 4a9c6e23-1352-4b72-a2a1-1e971b7407ad))
-    (fp_line (start 0.25 0) (end -0.75 1) (layer "Dwgs.User") (width 0.3) (tstamp 7ef7f515-275d-45d0-926a-a9379d451e5b))
-    (fp_line (start 0.25 0) (end -2.75 0) (layer "Dwgs.User") (width 0.3) (tstamp ca643d2a-6fb5-44fd-95ac-ad02c7f16c28))
-    (fp_line (start 0.25 1) (end 0.25 -1) (layer "Dwgs.User") (width 0.3) (tstamp dbf79a8b-f1f3-44f1-b9eb-81e61bd43c86))
+    (fp_line (start 0.25 0) (end -2.75 0) (layer "Dwgs.User") (width 0.3) (tstamp 03d4da36-3df2-4dcb-826c-78d1c988b1da))
+    (fp_line (start 0.25 0) (end -0.75 1) (layer "Dwgs.User") (width 0.3) (tstamp 0a5e2d14-7054-4d75-9fa8-c62919ee693e))
+    (fp_line (start 0.25 1) (end 0.25 -1) (layer "Dwgs.User") (width 0.3) (tstamp 295283f1-a6f4-4f96-932a-6d9902b1bdd1))
+    (fp_line (start 0.25 0) (end -0.75 -1) (layer "Dwgs.User") (width 0.3) (tstamp 77fd3673-00f2-4d58-8bd1-ed055ed8391a))
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (layer "B.Cu")
@@ -8066,6 +8066,9 @@
   (gr_text "RXD" (at 56.7 126.3 180) (layer "B.SilkS") (tstamp 71b7aa1c-073f-48f2-8312-b4f3fa4f2f96)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "SHLD" (at 87.9 124 180) (layer "B.SilkS") (tstamp 7552c34f-abdc-47b8-80f8-cbb3b75bea92)
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "Sailor Hat\nWiFi Gateway" (at 64.685 123.72 -180) (layer "B.SilkS") (tstamp 84206a49-c155-4c44-9b86-804ae7e7fd25)
     (effects (font (size 1.8 1.6) (thickness 0.35)) (justify left mirror))
   )
@@ -8078,7 +8081,7 @@
   (gr_text "H" (at 91.4 124 180) (layer "B.SilkS") (tstamp a0689fab-0fdc-4873-a900-15cfe707e1a4)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "v0.2.0" (at 67.685 119.62 180) (layer "B.SilkS") (tstamp a1217b60-cc0a-433c-972d-a5250e2b0479)
+  (gr_text "v1.0.0" (at 67.685 119.62 180) (layer "B.SilkS") (tstamp a1217b60-cc0a-433c-972d-a5250e2b0479)
     (effects (font (size 1.2 1.2) (thickness 0.25)) (justify mirror))
   )
   (gr_text "L" (at 86.4 127.6 180) (layer "B.SilkS") (tstamp af77c761-fed6-4456-baa2-98ba31d111f8)
@@ -8108,7 +8111,7 @@
   (gr_text "GND" (at 62.787 69.936 90) (layer "F.SilkS") (tstamp 08412541-0294-412a-9c70-3103c85895cd)
     (effects (font (size 1.2 1.2) (thickness 0.25)) (justify left))
   )
-  (gr_text "v0.2.0" (at 80.285 51.12) (layer "F.SilkS") (tstamp 0d77fa02-e63c-424f-8cf0-cb8e76b5d3fc)
+  (gr_text "v1.0.0" (at 80.285 51.12) (layer "F.SilkS") (tstamp 0d77fa02-e63c-424f-8cf0-cb8e76b5d3fc)
     (effects (font (size 1.2 1.2) (thickness 0.25)))
   )
   (gr_text "33" (at 50.085 69.92 90) (layer "F.SilkS") (tstamp 15d7cc96-9625-4856-845b-f7bca53f1ff8)

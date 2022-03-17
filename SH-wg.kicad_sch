@@ -6,12 +6,12 @@
 
   (title_block
     (title "Sailor Hat WiFi Gateway")
-    (date "2022-02-23")
-    (rev "0.2.0")
+    (date "2022-03-17")
+    (rev "1.0.0")
     (company "Hat Labs Ltd")
     (comment 1 "https://creativecommons.org/licenses/by-sa/4.0")
     (comment 2 "To view a copy of this license, visit ")
-    (comment 3 "SH-ESP32 is licensed under CC BY-SA 4.0.")
+    (comment 3 "SH-wg is licensed under CC BY-SA 4.0.")
   )
 
   (lib_symbols
@@ -1633,7 +1633,7 @@
       (reference "R806") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f733ba4/00000000-0000-0000-0000-00006118cef3"
-      (reference "U201") (unit 1) (value "SN65HVD232DR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U201") (unit 1) (value "SN65HVD231DR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005fc3847d/00000000-0000-0000-0000-00005fc47e0f"
       (reference "U301") (unit 1) (value "ESP32-WROOM-32E") (footprint "SH-wg:ESP32-WROOM-32-HandSolder")

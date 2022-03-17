@@ -14,7 +14,7 @@ import itertools
 
 def main():
     pcb_filename = "SH-wg.kicad_pcb"
-    panel_filename = "SH-wg-panel.kicad_pcb"
+    panel_filename = "SH-wg-panel-multi.kicad_pcb"
 
     frame_width = 5 * mm
     rail_width = frame_width
